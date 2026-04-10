@@ -117,8 +117,8 @@ function AuthPage({ onAuth }) {
       <style>{`@import url('https://fonts.googleapis.com/css2?family=DM+Mono:wght@300;400;500&family=Bricolage+Grotesque:opsz,wght@12..96,700;12..96,800&display=swap');*{box-sizing:border-box;}select{appearance:auto;}`}</style>
       <div style={{ width: "100%", maxWidth: 420 }}>
         <div style={{ textAlign: "center", marginBottom: "2rem" }}>
-          <h1 style={{ fontFamily: "'Bricolage Grotesque',sans-serif", fontWeight: 800, fontSize: "2.5rem", letterSpacing: "-0.04em" }}>
-            Task<span style={{ color: "#f97316" }}>Flow</span>
+          <h1 style={{ fontFamily: "'Bricolage Grotesque','Georgia',serif", fontWeight: 800, fontSize: "2.5rem", letterSpacing: "-0.04em" }}>
+            <span style={{ color: "#e2e2ee" }}>Task</span><span style={{ color: "#f97316" }}>Flow</span>
           </h1>
           <p style={{ fontSize: "0.72rem", color: "#666680", marginTop: "0.4rem", letterSpacing: "0.1em" }}>TASK MANAGEMENT API — DEMO</p>
         </div>
